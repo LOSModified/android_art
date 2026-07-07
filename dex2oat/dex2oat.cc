@@ -126,7 +126,7 @@ static constexpr size_t kDefaultMinDexFilesForSwap = 2;
 static constexpr size_t kDefaultMinDexFileCumulativeSizeForSwap = 20 * MB;
 
 // Compiler filter override for very large apps.
-static constexpr CompilerFilter::Filter kLargeAppFilter = CompilerFilter::kVerify;
+static constexpr CompilerFilter::Filter kLargeAppFilter = CompilerFilter::kSpeedProfile;
 
 static int original_argc;
 static char** original_argv;
